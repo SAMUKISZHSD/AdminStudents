@@ -12,12 +12,13 @@ Plataforma de gestão alunos <br> (EM DESENVOLVIMENTO) </br>
 ## ⚙ Funcionalidades 
 - Páginas sêmanticas e bem construídas <br>
 - Login e Cadastro
-- Recuperação de senha
+- Recuperação de senha (em elaboração)
 - Layout lindo e bem elaborado <br> 
 - Registro das informações informadas pelos usuários, no banco de dados. <br>
 - Design responsivo <br>
 - CRUD de registro e edição de alunos <br>
-- Painel de estatíscias (REPORT) <br>
-- Página de configurações <br>
+- Painel de report - geração de PDF <br>
+- Página de perfil do administrador <br>
+- Página de erro 404 
 
 <br>
