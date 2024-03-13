@@ -59,8 +59,8 @@
 
         </div>
 
-
     </main>
+    
     <script src="../js/script.js"></script>
     <script src="/js/bootstrap.bundle.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -97,6 +97,7 @@
         }
     });
 </script>
+
 
 
 </body>

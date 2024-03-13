@@ -19,6 +19,7 @@
         </div>
         <?php
 
+
           if(isset($_GET['error'])){
             if($_GET['error'] == "please enter your email or password"){
               echo '<div sclass="alert alert-danger" role="alert">
@@ -31,6 +32,18 @@
           </div>';
             }
           }    
+
+          if(!isset($_POST['check'])){
+            if(isset($_COOKIE['email'])){
+                unset($_COOKIE['email']); 
+                setcookie('email', null, -1, '/'); 
+            }
+            if(isset($_COOKIE['password'])){
+                unset($_COOKIE['password']); 
+                setcookie('password', null, -1, '/'); 
+            }
+          }
+          
         ?>
         <form method="POST" action="login.php">
           <div class="mb-3 mt-3 text-start">
@@ -63,7 +76,7 @@
            <h2 class=" sign-in text-uppercase">Cadastro</h2>
        </div>
        <form method="POST" id="signup" action="createaccout.php">
-           <div class="mb-3 mt-3 text-start">
+           <div class="mb-3 text-start">
                <label class="label-signup" for="username">Úsuario: <span class="valid"></span></label>
                <input type="text" class="form-control" id="username" placeholder="Coloque seu nome de úsuario" name="username">
            </div>
