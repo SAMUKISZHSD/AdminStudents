@@ -18,7 +18,7 @@ Plataforma de gestão alunos <br> (EM DESENVOLVIMENTO) </br>
 - Design responsivo <br>
 - CRUD de registro e edição de alunos <br>
 - Painel de report - geração de PDF <br>
-- Página de perfil do administrador <br>
+- Página de perfil do administrador (em elaboração) <br>
 - Página de erro 404 <br>
 - Painel de Controle <br>
  
