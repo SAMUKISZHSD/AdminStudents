@@ -126,8 +126,9 @@ input[type="email"]::placeholder,input[type="password"]::placeholder{
 
 .card{
 
-top: 5%;
-max-width: 800px;
+top: 8%;
+max-width: 500px;
+
 margin: auto;
 
 }

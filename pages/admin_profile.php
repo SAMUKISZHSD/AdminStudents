@@ -1,27 +1,33 @@
 <?php
+
 if(isset($_POST['update'])){
     include 'conixion.php';
     $username = $_POST['username'];
     $email = $_POST['email'];
     $password = $_POST['pass'];
-    $photo = $_FILES['photo']['name'];
-    $target = "images/".basename($photo);
+   
+    if(isset($_SESSION['email'])) { 
+        $requete = "UPDATE users SET username = '$username', Email = '$email', pass = '$password' WHERE Email = '".$_SESSION['email']."'";
+        $statment = $con -> prepare($requete);
+        $statment -> execute();
 
-    $requete = "UPDATE users SET username = '$userName', Email = '$email', pass = '$pass', photo = '$photo' WHERE Email = '".$_SESSION['email']."'";
-    $statment = $con -> prepare($requete);
-    $statment -> execute();
-
-    if (move_uploaded_file($_FILES['photo']['tmp_name'], $target)) {
-        $_SESSION['username'] = $userName;
-        $_SESSION['email'] = $email;
-        $_SESSION['pass'] = $pass;
-        $_SESSION['photo'] = $photo;
-        header("location:dashboard.php");
+        if ($statment) {
+            $_SESSION['username'] = $username;
+            $_SESSION['email'] = $email;
+            $_SESSION['pass'] = $password;
+            
+            header("location:dashboard.php");
+        } else {
+            header("location:update_profile.php?error=Failed to update");
+        }
     } else {
-        header("location:update_profile.php?error=Failed to upload image");
+        echo "Erro: Email de sessão não definido";
     }
 }
+
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -77,10 +83,9 @@ if(isset($_POST['update'])){
                             <i id="togglePassword" class="fa fa-eye"></i>
                         </div>
                         <div class="form-group mb-3">
-                            <label class="col-md-6"  for="photo">Foto de perfil:</label>
-                            <input type="file" class="form-control-file" id="photo" name="photo">
+                        <button type="submit" name="update" class="btn btn-primary mb-3">Atualizar perfil</button>
                         </div>
-                        <button type="submit" name="update" class="btn btn-primary">Atualizar perfil</button>
+                        
                     </form>
                 </div>
             </div>
