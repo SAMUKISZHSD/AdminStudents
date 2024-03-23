@@ -16,21 +16,30 @@
 
                    
 
-                    <li class="h7"><a class=" nav-link text-dark mb-3" href="students_list.php"><i
+            <li class="h7"><a class=" nav-link text-dark mb-3" href="students_list.php"><i
                                 class="far fa-graduation-cap me-2"></i> <span>Estudantes</span></a></li>
 
 
-                    <li class="h7"><a class=" nav-link text-dark mb-3" href="report.php"><i
+            <li class="h7"><a class=" nav-link text-dark mb-3" href="report.php"><i
                                 class="fal fa-file-chart-line me-2"></i> <span>Report</span></a></li>
 
-                                <li class="h7">
-    <a class="nav-link text-dark" href="admin_profile.php">
+            <li class="h7">
+    <a class="nav-link text-dark mb-3" href="admin_profile.php">
         <i class="fal fa-user me-2"></i>
         <span>Perfil do administrador</span>
     </a>
 </li>
 
-                </ul>
+
+<li class="h7">
+    <a class="nav-link text-dark" href="about.php">
+        <i class="fal fa-info-circle me-2"></i>
+        <span>Sobre</span>
+    </a>
+</li>
+
+
+                </ul>,
                 <ul class="logout d-flex justify-content-start list-unstyled">
                     <li class=" h7"><a class="nav-link text-dark" href="../index.php"><span>Encerrar sessão</span><i
                                 class="fal fa-sign-out-alt ms-2"></i></a></li>
