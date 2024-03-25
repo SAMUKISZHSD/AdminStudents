@@ -58,7 +58,46 @@
                 <!-- start developer card -->
                 <div class="col-md-8 about-text">
                     <div class="card">
-                        <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">
+                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Desenvolvedor</h5>
+                            <p class="card-text">Descrição do Desenvolvedor</p>
+                            <a href="github_link" class="btn btn-primary"><i class="fab fa-github"></i></a>
+                            <a href="linkedin_link" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- start developer team section -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8 text-center">
+                  
+                </div>
+                
+                <!-- start developer card -->
+                <div class="col-md-8 about-text">
+                    <div class="card">
+                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
+                        <div class="card-body">
+                            <h5 class="card-title">Nome do Desenvolvedor</h5>
+                            <p class="card-text">Descrição do Desenvolvedor</p>
+                            <a href="github_link" class="btn btn-primary"><i class="fab fa-github"></i></a>
+                            <a href="linkedin_link" class="btn btn-primary"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                     <!-- start developer team section -->
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-8 text-center">
+                  
+                </div>
+                
+                <!-- start developer card -->
+                <div class="col-md-8 about-text">
+                    <div class="card">
+                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
                         <div class="card-body">
                             <h5 class="card-title">Nome do Desenvolvedor</h5>
                             <p class="card-text">Descrição do Desenvolvedor</p>

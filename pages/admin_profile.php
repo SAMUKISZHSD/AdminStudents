@@ -83,7 +83,7 @@ if(isset($_POST['update'])){
                             <i id="togglePassword" class="fa fa-eye"></i>
                         </div>
                         <div class="form-group mb-3">
-                        <button type="submit" name="update" class="btn btn-primary mb-3">Atualizar perfil</button>
+                     <!--   <button type="submit" name="update" class="btn btn-primary mb-3">Atualizar perfil</button> -->
                         </div>
                         
                     </form>
