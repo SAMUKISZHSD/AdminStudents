@@ -1,2 +1,2 @@
 # Muda o arquivo de erro 404
-ErrorDocument 404 http://localhost/crud/CrudStudents/404.php
+ErrorDocument 404 http://localhost/CrudStudents-main/404.php
