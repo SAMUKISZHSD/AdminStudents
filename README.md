@@ -1,5 +1,7 @@
 # AdminClass
-Plataforma de gestão alunos <br> (EM DESENVOLVIMENTO) </br>
+
+A plataforma AdminClass é uma solução completa para a gestão de alunos, oferecendo funcionalidades essenciais para escolas e instituições de ensino. Vamos explorar os principais aspectos dessa plataforma:
+
 <div align="center"> 
   <h1>Tecnologias</h1>
 
