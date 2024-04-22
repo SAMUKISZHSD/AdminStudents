@@ -12,7 +12,7 @@
 </head>
 <body class="bg-content">
     <main class="dashboard d-flex">
-        <!-- start sidebar -->
+        <!-- começo sidebar -->
         <?php 
             include "component/sidebar.php";
             include 'conixion.php';
@@ -21,9 +21,9 @@
 
 
         ?>
-        <!-- end sidebar -->
+        <!-- fim sidebar -->
 
-        <!-- start content page -->
+        <!-- inicio corpo  -->
         <div class="container-fluid px">
         <?php 
             include "component/header.php";
@@ -48,23 +48,21 @@
                     <span class="h5 fw-bold nbr">1</span>
                 </div>
             </div>
+  <!-- fim corpo  -->
 
 
+    <!-- inicio painel de controle  -->
             <div class="card">
     <div class="card-body">
         <h5 class="card-title">Painel de Controle</h5>
         <canvas id="myChart"></canvas>
     </div>
 </div>
-
-        </div>
+    </div>
 
     </main>
     
-    <script src="../js/script.js"></script>
-    <script src="/js/bootstrap.bundle.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-
+    
     <script>
     var ctx = document.getElementById('myChart').getContext('2d');
     var myChart = new Chart(ctx, {
@@ -97,8 +95,12 @@
         }
     });
 </script>
+<!-- fim painel de controle  -->
 
 
+<script src="../js/script.js"></script>
+    <script src="/js/bootstrap.bundle.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 </body>
 

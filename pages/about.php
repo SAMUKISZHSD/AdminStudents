@@ -18,13 +18,13 @@
 </head>
 <body class="bg-content">
     <main class="dashboard d-flex">
-        <!-- start sidebar -->
+        <!-- inicio sidebar -->
         <?php 
             include "component/sidebar.php";
         ?>
-        <!-- end sidebar -->
+        <!-- fim sidebar -->
 
-        <!-- start content page -->
+        <!-- inicio corpo -->
         <div class="container-fluid px">
         <?php 
             include "component/header.php";
@@ -49,16 +49,16 @@
                 </div>
             </div>
 
-            <!-- start developer team section -->
+            <!-- inicio section time de desenvolvedores -->
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 text-center">
                     <h1 class="display-4">Time de Desenvolvedores</h1>
                 </div>
                 
-                <!-- start developer card -->
+                <!-- inicio card desenvolvedores-->
                 <div class="col-md-8 about-text">
                     <div class="card">
-                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
+                      
                         <div class="card-body">
                             <h5 class="card-title">Nome do Desenvolvedor</h5>
                             <p class="card-text">Descrição do Desenvolvedor</p>
@@ -68,16 +68,16 @@
                     </div>
                 </div>
 
-                 <!-- start developer team section -->
+                 <!-- inicio card desenvolvedores -->
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 text-center">
                   
                 </div>
                 
-                <!-- start developer card -->
+                <!-- inicio card desenvolvedores -->
                 <div class="col-md-8 about-text">
                     <div class="card">
-                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
+                      
                         <div class="card-body">
                             <h5 class="card-title">Nome do Desenvolvedor</h5>
                             <p class="card-text">Descrição do Desenvolvedor</p>
@@ -88,16 +88,16 @@
                 </div>
 
 
-                     <!-- start developer team section -->
+                     <!-- inicio card desenvolvedores -->
             <div class="row justify-content-center mt-5">
                 <div class="col-md-8 text-center">
                   
                 </div>
                 
-                <!-- start developer card -->
+                <!-- inicio card desenvolvedores -->
                 <div class="col-md-8 about-text">
                     <div class="card">
-                      <!--    <img src=".\assets\img\MESSI.jpg" class="card-img-top" alt="Developer Name">  -->
+                     
                         <div class="card-body">
                             <h5 class="card-title">Nome do Desenvolvedor</h5>
                             <p class="card-text">Descrição do Desenvolvedor</p>
