@@ -1,7 +1,8 @@
-# AdminClass
+# AdminStudents
 
-A plataforma AdminClass é uma solução completa para a gestão de alunos, oferecendo funcionalidades essenciais para escolas e instituições de ensino. Vamos explorar os principais aspectos dessa plataforma:
+ AdminStudents, que foi desenvolvida em PHP e MySQL com a função principal de realizar operações CRUD (Create, Read, Update e Delete) relacionadas aos registros de alunos
 
+ <br> O AdminStudents é uma plataforma web criada para administradores e instituições educacionais. Seu objetivo principal é facilitar o gerenciamento dos dados dos alunos </br>
 <div align="center"> 
   <h1>Tecnologias</h1>
 
