@@ -5,7 +5,8 @@ A plataforma AdminClass é uma solução completa para a gestão de alunos, ofer
 <div align="center"> 
   <h1>Tecnologias</h1>
 
-[![My Skills](https://skills.thijs.gg/icons?i=html,css,js,git,php,mysql,bootstrap&theme=dark)](https://skills.thijs.gg)
+
+[![My Skills](https://skillicons.dev/icons?i=html,css,js,git,php,mysql,bootstrap,vscode)](https://skillicons.dev)
 
  </div>
 <div>
